@@ -1,0 +1,69 @@
+name: simba_courier
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  auto_size_text: ^3.0.0
+  clipboard: ^0.1.3
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  dio: ^4.0.6
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_svg: ^1.1.4
+  fluttertoast: ^8.1.1
+  get_it: ^7.2.0
+  http: ^0.13.5
+  image_picker: ^0.8.5+3
+  internet_connection_checker: ^1.0.0+1
+  intl: ^0.17.0
+  lottie: ^1.4.2
+  open_file: ^3.2.1
+  page_transition: ^2.0.9
+  path_provider: ^2.0.11
+  pdf: ^3.8.4
+  shared_preferences: ^2.0.15
+  smooth_page_indicator: ^1.0.0+2
+  timeago: ^3.3.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/font/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/font/Montserrat-Medium.ttf
+          weight: 400
+    - family: MontserratAlternates
+      fonts:
+        - asset: assets/font/MontserratAlternates-SemiBold.ttf
+          weight: 700
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

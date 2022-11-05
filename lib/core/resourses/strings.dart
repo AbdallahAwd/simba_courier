@@ -1,0 +1,120 @@
+// ignore_for_file: constant_identifier_names
+
+class AppStrings {
+  static const String signUp = 'Sign Up';
+  static const String login = 'Login';
+  static const String solgan = 'PRODUCT OF SIMBA LOGISTIC EQUIPMENT SUPPLY';
+  static const String version = 'VERSION 2.0';
+  static const String hello = 'Hello!';
+  static const String logTOContinu = 'Login to continue';
+  static const String signUpContinu = 'Sign Up to continue';
+  static const String userName = 'UserName';
+  static const String enterUserHint = 'Enter UserName';
+  static const String password = 'Password';
+  static const String enterPassword = 'Enter Password';
+  static const String forgetPassword = 'Forget Password?';
+  static const String dontHaveAccount = 'Don\'t have an account?';
+  static const String step1 = 'Step 1 of 2';
+  static const String step2 = 'Step 2 of 2';
+  static const String whoIsTheUser = 'Who is the user of this app?';
+  static const String client = 'Client';
+  static const String driver = 'Driver';
+  static const String agent = 'Agent';
+  static const String firstName = 'First name';
+  static const String lastName = 'Last name';
+  static const String next = 'Next';
+  static const String haveAccount = 'Already have an account?';
+  static const String phoneHint = 'Enter Phone Number';
+  static const String phoneHint2 = 'Phone Number';
+  static const String confirmPassword = 'Confirm Password';
+  static const String pickup = 'Pickup';
+  static const String home = 'Home';
+  static const String reports = 'Reports';
+  static const String account = 'Account';
+  static const String testName = 'Frida Mandala';
+  static const String testPhone = '+255 677 122 299';
+  static const String myProfile = 'My Profile';
+  static const String notifications = 'Notifications';
+  static const String two_fact = '2 factor Authentification';
+  static const String sync = 'Offline Synchronization';
+  static const String support = 'Help & Support';
+  static const String terms = 'Terms of Service';
+  static const String privacy = 'Privacy Policy';
+  static const String logout = 'Logout';
+  static const String today = 'Today';
+  static const String search_shipment = 'Search Shipment';
+  static const String search_pickup = 'Search Pickup';
+  static const String pending = 'Pending';
+  static const String verified = 'Verified';
+  static const String delivered = 'Delivered';
+  static const String inTransit = 'in Transit';
+  static const String complete = 'Complete';
+  static const String decoders = 'Decoders';
+  static const String fleet_type = 'Fleet type : ';
+  static const String box = 'Box : ';
+  static const String waybill = 'Waybill : ';
+  static const String last_update = 'Last Updated:';
+  static const String details = 'i Details';
+  static const String coaxial = 'Coaxial Cables';
+  static const String picked = 'Picked (4)';
+  static const String pending3 = 'Pending';
+  static const String new_pick = 'New Pickup';
+  static const String pick_location = 'Pickup Location';
+  static const String enter_pick_location = 'Enter Pickup Location';
+  static const String vehicle_type = 'Vehicle Type';
+  static const String enter_vehicle_type = 'Enter $vehicle_type';
+  static const String pickup_date = 'Pickup Date';
+  static const String enter_pickup_date = 'Enter Pickup Date';
+  static const String take_photo = 'Take or add photo';
+  static const String submit = 'Submit';
+  static const String submit_mission = 'Submission\nsuccessful!';
+  static const String some_id = 'GRN/DN : ';
+  static const String pick_id_string = "Pickup ID :";
+  static const String pick_id_value = "GRN-0993094";
+  static const String item_string = "Item :";
+  static const String item_value = "Coaxial Cables";
+  static const String weight_string = "Weight :";
+  static const String weight_value = "60 KG";
+  static const String quantity_value = "7";
+  static const String quantity = "Quantity : ";
+  static const String drop_off = "Dropoff";
+  static const String sale_point = "SALES POINT";
+  static const String done = "Done";
+  static const String from_date = "From Date";
+  static const String to_date = "To Date";
+  static const String generate = "Generate";
+  static const String download_pdf = "Download PDF";
+  static const String send_to_email = "Send to Email";
+  static const String email = "Email";
+
+  static const String send = "Send";
+  static const String update = "Update";
+  static const String change_phone = "Change Phone Number";
+  static const String change_password = "Current Password";
+  static const String new_password = "New Password";
+  static const String repeat_new_password = "Repeat New Password";
+  static const String login_path = "/api/login";
+}
+
+class AppAssets {
+  static const String logo = 'assets/image/logo.png';
+  static const String splashLogo = 'assets/image/splash_logo.png';
+  static const String africa = 'assets/image/africa.png';
+  static const String home = 'assets/image/home.png';
+  static const String menu = 'assets/image/menu.svg';
+  static const String logout = 'assets/image/logout.svg';
+  static const String van = 'assets/image/van.svg';
+  static const String privacy = 'assets/image/privacy.svg';
+  static const String terms = 'assets/image/terms.svg';
+  static const String pending = 'assets/image/pending.svg';
+  static const String twoFact = 'assets/image/two_fact.svg';
+  static const String shipped_hand = 'assets/image/shipped_hand.svg';
+  static const String vehical = 'assets/image/vehical.svg';
+  static const String checked = 'assets/image/checked.json';
+}
+
+class TypeOfSearch {
+  static const String HOME = 'HOME';
+  static const String PICKUP = 'PICKUP';
+  static const String QUESTION = 'QUESTION';
+}
